@@ -179,3 +179,27 @@ _.fill = function (list, value, indexStart = 0, endIndex = list.length) {
   }
   return list;
 };
+_.values = function values(list) {
+  function* gen() {
+    for (let i = 0; i < list.length; i++) {
+      yield list[i];
+    }
+  }
+  return gen();
+};
+_.keys = function keys(list) {
+  function* gen() {
+    for (let i = 0; i < list.length; i++) {
+      yield i;
+    }
+  }
+  return gen();
+};
+_.entries = function entries(list) {
+  function* gen() {
+    for (let i = 0; i < list.length; i++) {
+      yield [i, list[i]];
+    }
+  }
+  return gen();
+};
