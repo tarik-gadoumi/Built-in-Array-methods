@@ -1,0 +1,21 @@
+{
+  "name": "flow",
+  "version": "1.0.0",
+  "description": "flow static type checker",
+  "main": "src/index.js",
+  "repository": "https://github.com/tarik-gadoumi/Built-in-Array-methods.git",
+  "author": "tarik-gadoumi <tarik.gadoumi@laplateforme.io>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/ -d dist/",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/preset-flow": "^7.18.6"
+  },
+  "dependencies": {
+    "flow-bin": "^0.186.0"
+  }
+}
