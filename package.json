@@ -2,7 +2,7 @@
   "name": "flow",
   "version": "1.0.0",
   "description": "flow static type checker",
-  "main": "src/index.js",
+  "main": "src/Built-in-Array-Methods.js",
   "repository": "https://github.com/tarik-gadoumi/Built-in-Array-methods.git",
   "author": "tarik-gadoumi <tarik.gadoumi@laplateforme.io>",
   "license": "MIT",
